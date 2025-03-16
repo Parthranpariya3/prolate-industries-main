@@ -1,0 +1,646 @@
+.heroMainDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 0 25px 0;
+}
+
+.heroImgMainDiv {
+    width: 50%;
+}
+
+.heroImgDiv {
+    width: 90%;
+    // margin: auto;
+}
+
+.heroContentMainDiv {
+    width: 48%;
+}
+
+.heroHeading {
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 35px;
+    display: inline-block;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #4181c1 0%, #bd2065 100%);
+}
+
+.heroParaDiv {
+    width: 90%;
+}
+
+.heroPara {
+    font-size: 16px;
+    margin: 15px 0
+}
+
+.heroBtn {
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #4181c1 0%, #bd2065 100%) border-box;
+    border-radius: 6px;
+    border: 1.5px solid transparent;
+    padding: 11px 30px;
+    color: #000;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+}
+
+.heroBtnLink {
+    text-decoration: none;
+    color: #000;
+}
+
+.secondSectionMainDiv {
+    background: #4181c12b;
+}
+
+.headingDiv {
+    text-align: center;
+    margin: 30px 0 45px 0;
+}
+
+.ourWorkHeading {
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 35px;
+    display: inline-block;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #4181c1 0%, #bd2065 100%);
+}
+
+.ourWorkContentDiv {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 35px 0;
+    margin-bottom: 45px;
+}
+
+.workSubHeading {
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.workLinkDiv {
+    text-decoration: none;
+    color: #000;
+    height: 100%;
+}
+
+.workSubDiv {
+    // background-color: #93939394;
+    background-color: #a9a9a933;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 23px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.workImg {
+    border-radius: 10px;
+}
+
+.aboutDivider {
+    height: 5px;
+    width: 68px;
+    background: linear-gradient(90deg, #4181c1 0%, #bd2065 100%);
+    margin-bottom: 15px;
+}
+
+.aboutMainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.aboutContentDiv {
+    width: 47%;
+}
+
+.aboutImgMainDiv {
+    width: 47%;
+}
+
+.aboutIconSubDiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.aboutIconDiv {
+    width: 11%;
+}
+
+.aboutIconParaDiv {
+    width: 86%;
+}
+
+.aboutIconHead {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.aboutIconPara,
+.aboutPara {
+    margin: 0;
+}
+
+.aboutIconImgDiv {
+    margin-top: 5px;
+}
+
+.aboutHeadingDiv {
+    margin: 0 0 8px 0;
+}
+
+.aboutHeading,
+.clientsHeading,
+.blogHeading,
+.testimonialsHeading {
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 32px;
+    display: inline-block;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #4181c1 0%, #bd2065 100%);
+}
+
+.clientsHeadingDiv {
+    text-align: center;
+    margin: 23px 0 40px 0;
+}
+
+.clientsMainDiv,
+.testimonialsMainDiv {
+    background: #4181c12b;
+}
+
+.clientLogosImgDiv {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-between;
+    gap: 30px 0;
+    margin-bottom: 40px;
+}
+
+.clientLogosSliderDiv {
+    margin-bottom: 30px;
+}
+
+.blogPara {
+    margin: 5px 0 0 0;
+}
+
+.blogParaDiv {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blogHeadingDiv {
+    text-align: center;
+    margin: 23px 0 13px 0;
+}
+
+.blogCardDiv {
+    background: #4181c12b;
+}
+
+.blogContentMainDiv {
+    padding: 20px 20px 30px 20px;
+}
+
+.blogTitle,
+.blogDescription,
+.blogDate {
+    margin: 0;
+}
+
+.blogDateMainDiv,
+.blogReadMoreBtn {
+    display: flex;
+    align-items: center;
+}
+
+.blogReadMoreBtn {
+    border: none;
+    padding: 13px 16px 12px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #a9a9a933;
+}
+
+.blogCardsMainDiv {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.blogTitle {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.blogDescription {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.blogDate {
+    font-size: 15px;
+}
+
+.blogDateDiv,
+.blogReadMoreBtnIcon {
+    margin-left: 5px;
+}
+
+.blogDateIcon,
+.blogReadMoreBtnIcon {
+    display: flex;
+}
+
+.blogDateBtnDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeBlogReadMoreBtn {
+    text-decoration: none;
+}
+
+.testimonialsHeadingDiv {
+    text-align: center;
+    margin: 13px 0 13px 0;
+}
+
+.testimonialImgDiv {
+    text-align: center;
+}
+
+.testimonialImg {
+    border-radius: 100%;
+    max-width: 90px;
+}
+
+.testimonialParaDiv {
+    // width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.testimonialPara {
+    margin: 0px 0 30px 0;
+}
+
+// .testimonialCardsMainDiv {
+//     display: grid;
+//     justify-content: space-between;
+//     grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+// gap: 30px;
+// }
+
+.testimonialCardsSliderMainDiv {
+    margin-bottom: 30px;
+}
+
+.testimonialCard {
+    background: #a9a9a933;
+    border-radius: 10px;
+    padding: 30px 25px 30px 25px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-evenly;
+    height: 100%;
+}
+
+.testimonialName {
+    margin: 8px 0;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.testimonialReview {
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.workLinkSubDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .heroParaDiv {
+        width: 100%;
+    }
+
+    .heroImgDiv {
+        width: 95%;
+    }
+
+    .heroMainDiv {
+        margin: 100px 0 10px 0;
+    }
+
+    .aboutContentDiv {
+        width: 50%;
+    }
+
+    .clientLogosImgDiv {
+        gap: 25px 0;
+    }
+
+    .headingDiv {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .ourWorkContentDiv {
+        margin-bottom: 25px;
+    }
+
+    .aboutMainDiv {
+        margin: 25px 0;
+    }
+
+    .clientsHeadingDiv {
+        margin: 15px 0 33px;
+    }
+
+    .clientLogosSliderDiv,
+    .testimonialCardsMainDiv {
+        margin-bottom: 25px;
+    }
+
+    .blogCardsMainDiv {
+        margin-bottom: 30px;
+    }
+
+    .blogHeadingDiv {
+        margin-top: 20px;
+    }
+
+    .testimonialsHeadingDiv {
+        // margin-top: 20px;
+        // margin-bottom: 15px;
+    }
+
+    // .testimonialPara {
+    //     margin: 5px 0 33px;
+    // }
+
+    .blogParaDiv {
+        // margin-bottom: 28px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .heroHeading {
+        font-size: 30px;
+    }
+
+    .heroPara {
+        margin: 10px 0 15px 0;
+    }
+
+    .clientLogosImgDiv {
+        gap: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .blogCardsMainDiv {
+        grid-template-columns: 48.5% 48.5%;
+        justify-content: space-between;
+        gap: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 935px) {
+    .ourWorkContentDiv {
+        grid-template-columns: 31% 31% 31%;
+        gap: 33px 0;
+    }
+
+    .headingDiv {
+        margin: 20px 0 35px 0;
+    }
+
+    .ourWorkContentDiv {
+        margin-bottom: 30px;
+    }
+
+    .clientLogosImgDiv {
+        margin-bottom: 20px;
+    }
+
+    .testimonialCardsMainDiv {
+        grid-template-columns: 48.5% 48.5%;
+        gap: 25px 0;
+    }
+
+    .clientsHeadingDiv {
+        margin: 7px 0 25px;
+    }
+
+    .clientLogosSliderDiv {
+        margin-bottom: 15px;
+    }
+
+    .workSubDiv {
+        padding: 22px 23px 17px 23px;
+    }
+
+    .blogHeadingDiv {
+        margin-top: 5px;
+        margin-bottom: 13px;
+    }
+
+    .testimonialsHeadingDiv {
+        margin-top: 5px;
+    }
+
+    .testimonialCardsSliderMainDiv {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 813px) {
+    .heroHeading {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 793px) {
+
+    .heroContentMainDiv {
+        width: 49%;
+    }
+
+    .aboutMainDiv {
+        margin: 20px 0;
+    }
+
+    .aboutImgMainDiv,
+    .aboutContentDiv {
+        width: 100%;
+    }
+
+    .aboutContentDiv {
+        margin-top: 40px;
+    }
+
+    .workSubDiv {
+        padding: 22px 18px 13px 18px;
+    }
+
+    .aboutMainDiv {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+
+    .heroMainDiv {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .heroImgMainDiv {
+        width: 100%;
+    }
+
+    .heroImgDiv {
+        width: 100%;
+    }
+
+    .heroContentMainDiv {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .clientLogosImgDiv {
+        gap: 13px 0;
+    }
+
+
+    .blogCardsMainDiv {
+        margin-bottom: 20px;
+    }
+
+    .heroMainDiv {
+        margin-top: 83px;
+    }
+}
+
+@media only screen and (max-width: 757px) {
+
+    .clientsHeading,
+    .blogHeading,
+    .testimonialsHeading,
+    .ourWorkHeading,
+    .aboutHeading {
+        font-size: 28px;
+    }
+
+    .testimonialsHeadingDiv {
+        margin-bottom: 10px;
+    }
+
+    .testimonialPara {
+        margin-bottom: 25px;
+    }
+
+    .clientLogosSliderDiv {
+        margin-bottom: 15px;
+    }
+
+    .headingDiv {
+        margin: 10px 0 25px 0;
+    }
+
+    .ourWorkContentDiv {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 657px) {
+    .ourWorkContentDiv {
+        grid-template-columns: 47% 47%;
+    }
+
+    .clientLogosImgDiv {
+        grid-template-columns: 31% 31% 31%;
+        gap: 17px 0;
+    }
+
+    .blogCardsMainDiv {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+
+    .blogCardsMainDiv,
+    .testimonialCardsMainDiv {
+        grid-template-columns: 100%;
+    }
+
+    .blogParaDiv {
+        margin-bottom: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .clientLogosImgDiv {
+        grid-template-columns: 48% 48%;
+    }
+
+    .ourWorkContentDiv {
+        gap: 30px 0;
+    }
+
+    .aboutContentDiv {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .workSubDiv {
+        padding: 17px 13px 9px;
+    }
+}
+
+// @media only screen and (max-width: 375px) {
+//     .clientLogosSliderDiv {
+//         margin-bottom: 6px;
+//     }
+// }

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&family=Cookie&family=Dancing+Script:wght@600;700&family=Heebo&family=Inter:wght@400;700&family=Josefin+Sans&family=Nunito+Sans&family=Nunito:wght@800&family=Open+Sans&family=Oswald:wght@300&family=Poppins:wght@200;300;400;500;700;800;900&family=Roboto:wght@300&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.containerPadding {
+  padding: 33px 25px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .container {
+    max-width: 97%;
+  }
+}
+
+@media only screen and (max-width: 793px) {
+  .container {
+    max-width: 98%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .containerPadding {
+    padding: 33px 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+#testimonialSlider .swiper-slide {
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}

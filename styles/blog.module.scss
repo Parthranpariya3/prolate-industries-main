@@ -1,0 +1,136 @@
+.blogHeadingMainDiv {
+    background: linear-gradient(to bottom right,
+            #000000a1,
+            #000000a1), url("../public/blogs-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.blogSubDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin-top: 60px;
+}
+
+.blogHeading {
+    color: #FFF;
+    margin: 0;
+    font-size: 40px;
+}
+
+.blogPara,
+.blogBreadCrumbHomeLink {
+    color: #FFF;
+}
+
+.blogPara {
+    text-align: center;
+}
+
+.blogParaLink {
+    text-decoration: none;
+}
+
+.blogBreadCrumbActiveLink {
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #4181c1 0%, #bd2065 100%);
+    color: #0000 !important;
+    font-weight: 500;
+}
+
+.blogContainer {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .13);
+}
+
+.blogContainerPadding {
+    padding: 35px 40px 30px;
+    margin: 60px 0;
+}
+
+.blogName {
+    margin: 0 0 15px 0;
+    font-size: 25px;
+}
+
+.blogContentPara {
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+.blogSubHeading {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.blogContentPara {
+    margin-top: 5px;
+}
+
+.blogUsesUl {
+    margin-top: 10px;
+}
+
+.blogContentLi {
+    margin-bottom: 10px;
+}
+
+.blogUsesLi {
+    margin-bottom: 5px;
+}
+
+.blogLiBold {
+    font-weight: 500;
+}
+
+@media only screen and (max-width:1074px) {
+    .blogContainer {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:873px) {
+
+    .blogContainer {
+        width: 100%;
+        box-shadow: unset;
+    }
+
+    .blogContainerPadding {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 40px;
+    }
+
+    .blogContainerPadding {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .blogContainerPadding {
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .blogName {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .blogHeading {
+        font-size: 35px;
+    }
+
+    .blogPara {
+        margin: 10px 0 0 0;
+    }
+}

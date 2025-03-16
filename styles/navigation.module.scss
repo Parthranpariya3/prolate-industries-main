@@ -1,0 +1,121 @@
+.navigationMainDiv {
+    background: #EBECF0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+
+.containerPadding {
+    padding: 13px 25px;
+}
+
+.navigationSubDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoDiv {
+    width: 15%;
+}
+
+.logo {
+    width: 135px;
+}
+
+.navItemDiv {
+    width: 75%;
+}
+
+.navItemAllDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navItem {
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+.humbergerMenu {
+    font-size: 30px;
+}
+
+.humbergerMenuDiv {
+    display: flex;
+}
+
+.responsiveMenu {
+    display: none;
+}
+
+.responsiveMenuItems {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background: #FFF;
+    z-index: 9;
+}
+
+.mobileNavigationCloseBtnDiv {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.mobileNavItemAllDiv {
+    padding: 0 15px;
+
+}
+
+.mobileCloseBtn {
+    font-size: 27px;
+    fill: #000;
+}
+
+.mobileNavItem {
+    margin: 15px 9px;
+}
+
+.navItemsLink {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 793px) {
+
+    .navItem {
+        margin: 0 9px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .desktopMenu {
+        display: none;
+    }
+
+    .responsiveMenu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .containerPadding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .responsiveMenuItems {
+        width: 100%;
+    }
+}

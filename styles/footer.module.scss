@@ -1,0 +1,107 @@
+.containerPadding {
+    padding: 40px 25px 33px 25px;
+}
+
+.footerMainDiv {
+    background: #ebecf0;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlogoContentDiv {
+    width: 33%;
+}
+
+.footerQuickLinksDiv {
+    width: 15%;
+}
+
+.footerGetInTouchDiv {
+    width: 30%;
+}
+
+.footerLogoDiv {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.footerPara,
+.footerQuickLinks,
+.footerContent {
+    color: #808080;
+    margin: 0;
+}
+
+.footerQuickLinks,
+.footerPara {
+    margin-bottom: 8px;
+}
+
+.footerSocialIconMainDiv {
+    display: flex;
+}
+
+.footerSocialIcon {
+    fill: gray;
+    font-size: 25px;
+    margin: 10px 20px 0 0;
+}
+
+.footerQuickLinksHeading,
+.footerGetInTouch {
+    color: #000;
+    margin: 0 0 13px 0;
+}
+
+.footerIconContent {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.footerIcon {
+    stroke: gray;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.footerIconDiv {
+    display: flex;
+}
+
+.footerLinkItems {
+    text-decoration: none;
+    color: gray;
+}
+
+@media only screen and (max-width: 1050px) {
+    .footerGetInTouchDiv {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 730px) {
+    .footerDiv {
+        flex-direction: column;
+    }
+
+    .footerlogoContentDiv,
+    .footerGetInTouchDiv,
+    .footerQuickLinksDiv {
+        width: 100%;
+    }
+
+    .footerQuickLinksDiv {
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .containerPadding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

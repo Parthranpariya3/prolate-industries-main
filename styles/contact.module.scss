@@ -1,0 +1,165 @@
+.contactHeadingMainDiv {
+    background: linear-gradient(to bottom right,
+            #000000a1,
+            #000000a1), url("../public/contactUsBg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.contactSubDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin-top: 60px;
+}
+
+.contactHeading {
+    color: #FFF;
+    margin: 0;
+    font-size: 40px;
+}
+
+.contactBreadCrumbHomeLink {
+    color: #FFF;
+}
+
+.contactParaLink {
+    text-decoration: none;
+}
+
+.contactBreadCrumbActiveLink,
+.letsTalkHeading {
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #4181c1 0%, #bd2065 100%);
+    color: #0000 !important;
+}
+
+.contactBreadCrumbActiveLink {
+    font-weight: 500;
+}
+
+.contactDivider {
+    height: 5px;
+    width: 68px;
+    background: linear-gradient(90deg, #4181c1 0%, #bd2065 100%);
+    margin-bottom: 15px;
+}
+
+.letsTalkHeading {
+    margin: 0;
+}
+
+.contactPara {
+    margin: 10px 0 20px 0;
+}
+
+.contactBreadcrumbsPara {
+    color: #FFF;
+}
+
+.contactFormMainDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 30px 0;
+}
+
+.contactFormDiv {
+    width: 50%;
+}
+
+.contactImgMainDiv {
+    width: 45%;
+}
+
+.formField {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 0 11px 13px !important;
+}
+
+.fieldErrorDiv {
+    margin: 0 0 20px 0;
+}
+
+.formField::placeholder {
+    color: #6e6e6e;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Poppins;
+}
+
+.submitFormBtn {
+    padding: 11px 33px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #4181c1 0%, #bd2065 100%) border-box;
+    border: 1.5px solid transparent;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1165px) {
+    .contactImgMainDiv {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contactFormMainDiv {
+        flex-direction: column;
+        margin: 15px 0 10px 0;
+    }
+
+    .contactImgMainDiv {
+        display: none;
+    }
+
+    .contactFormDiv {
+        width: 100%;
+    }
+
+    .formField {
+        width: 97.5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .formField {
+        width: 96.5%;
+    }
+
+    .letsTalkHeading {
+        font-size: 30px;
+    }
+
+    .contactDivider {
+        width: 60px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .contactHeading {
+        font-size: 35px;
+    }
+
+    .contactBreadcrumbsPara {
+        margin: 10px 0 0 0;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .formField {
+        width: 95.5%;
+    }
+}
