@@ -16,7 +16,7 @@ const Navigation = () => {
               <div className={styles.logoDiv}>
                 <Link href="/">
                   <img
-                    src="/gurulogo.png"
+                    src="/prolatelogo.png"
                     alt=""
                     width="100%"
                     className={styles.logo}

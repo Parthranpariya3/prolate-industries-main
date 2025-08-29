@@ -13,85 +13,59 @@ import "swiper/css/autoplay";
 const Main = () => {
   const data = [
     {
-      title: "Metal Letter Led",
-      thumbnail: "/Metal Letter/metalLetter2.jpg",
-      url: "/our-work/metal-letter-led",
+      title: "AMMONIUM SULPHATE Extra pure (NH4)2SO4.M.W. 132.14 ",
+      thumbnail: "/product-1.jpeg",
+      url: "/our-work/ammonium-sulphate",
     },
     {
-      title: "Roll Up Stande",
-      thumbnail: "/Roll Up Stande/rollImg3.jpg",
-      url: "/our-work/roll-up-stande",
+      title: "ACETIC ACID GLACIAL Extra pure CH3COOH. M.W. 60.05",
+      thumbnail: "/product-2.jpeg",
+      url: "/our-work/acetic-acid-glacial",
     },
     {
-      title: "Social Post",
-      thumbnail: "/Social Media Post/socialImg1.jpg",
-      url: "/our-work/social-media-post",
+      title: "LABORATORY REAGENT Acetic Acid Giacial (Ethanoic Acid) Extra Pure",
+      thumbnail: "/product-3.jpeg",
+      url: "/our-work/lab-reagent-acetic-acid",
     },
     {
-      title: "Star Flex",
-      thumbnail: "/Star Flex/starImg3.jpg",
-      url: "/our-work/star-flex",
+      title: "LABORATORY REAGENT Acetone (2-propanone;Dimethylketone) Extra pure (CH3)2co  MW:58.08",
+      thumbnail: "/product-4.jpeg",
+      url: "/our-work/lab-reagent-acetone",
     },
     {
-      title: "Printing",
-      thumbnail: "/Printing/printing1.jpg",
-      url: "/our-work/printing",
+      title: "BORAX (Decahydrate) Extra pure (Di-Sodium  Tetraborate Na2B4o7.10H2o M.W. 381.37",
+      thumbnail: "/product-5.jpeg",
+      url: "/our-work/borox",
     },
     {
-      title: "Client",
-      thumbnail: "/Client/clientImg10.jpg",
-      url: "/our-work/client",
+      title: "ACETONE Extra pure (CH3)2co M.W. 58.08",
+      thumbnail: "/product-6.jpeg",
+      url: "/our-work/acetone",
     },
     {
-      title: "Frontlit Flex",
-      thumbnail: "/Frontlit Flex/frontlitImg2.jpg",
-      url: "/our-work/frontlit-flex",
+      title: "BORIC ACID(POWDER) Extra pure H3Bo3 M.W. 61.83",
+      thumbnail: "/product-7.jpeg",
+      url: "/our-work/boric-acid",
     },
     {
-      title: "Logo",
-      thumbnail: "/Logo/logoImg4.jpg",
-      url: "/our-work/logo",
+     title: "CITRIC ACID (Monohydrate) Extra Pure C6H8o7.H2o M.W. 210.14",
+      thumbnail: "/product-8.jpeg",
+      url: "/our-work/citric-acid",
     },
     {
-      title: "2D Cut Acrylic Letter Led",
-      thumbnail: "/2D Acrylic Letter Led/acrylicImg3.jpg",
-      url: "/our-work/2D-cut-acrylic-letter-led",
+     title: "FERROUS sulphate heptahydrate Extra pure (Iron (ll) sulphate) Feso4.7H2o M.W. 278.01",
+      thumbnail: "/product-9.jpeg",
+      url: "/our-work/ferrous-sulphate",
     },
     {
-      title: "Acrylic Letter Led",
-      thumbnail: "/Acrylic Letter/acrylicImg4.jpg",
-      url: "/our-work/acrylic-letter-led",
-    },
-    {
-      title: "Aluminium Channel Letter",
-      thumbnail: "/Aluminium Channel Letter/aluminiumImg4.jpg",
-      url: "/our-work/aluminium-channel-letter",
-    },
-    {
-      title: "Backlit Sign Board",
-      thumbnail: "/Backlit Sign Board/backlitImg6.jpg",
-      url: "/our-work/backlit-sign-board",
-    },
-    {
-      title: "Black Back Flex",
-      thumbnail: "/Black Back Flex/blackImg1.jpg",
-      url: "/our-work/black-back-flex",
-    },
+     title: "SULPHAMIC ACID Extra pure NH2.SO3H M.W. 97.09",
+      thumbnail: "/product-10.jpeg",
+      url: "/our-work/sulphamic-acid",
+    }
   ];
 
   const clientImg = [
-    { logo: "/Client/clientImg1.jpg" },
-    { logo: "/Client/clientImg2.jpg" },
-    { logo: "/Client/clientImg3.jpg" },
-    { logo: "/Client/clientImg4.jpg" },
-    { logo: "/Client/clientImg5.jpg" },
-    { logo: "/Client/clientImg6.jpg" },
-    { logo: "/Client/clientImg7.jpg" },
-    { logo: "/Client/clientImg8.jpg" },
-    { logo: "/Client/clientImg9.jpg" },
-    { logo: "/Client/clientImg10.jpg" },
-    { logo: "/Client/clientImg11.jpg" },
-    { logo: "/Client/clientImg12.jpg" },
+    { logo: "/Client/oxford-logo.png" }
   ];
 
   const blogs = [
@@ -167,23 +141,17 @@ const Main = () => {
               <div className={styles.heroImgMainDiv}>
                 <div className={styles.heroImgDiv}>
                   <img
-                    src="/Social Media Post/socialImg1.jpg"
+                    src="/Prolate/homepage banner.jpeg"
                     alt=""
                     width="100%"
                   />
                 </div>
               </div>
               <div className={styles.heroContentMainDiv}>
-                <h1 className={styles.heroHeading}>Welcome to Guru Graphics</h1>
+                <h1 className={styles.heroHeading}>Welcome to Prolate Industries</h1>
                 <div className={styles.heroParaDiv}>
                   <p className={styles.heroPara}>
-                    At <b>Guru Graphics</b>, we don't just design, we transform
-                    your ideas into visually compelling experiences. Whether
-                    it's an eye-catching logo, high-definition printing, or
-                    striking signage, we are your go-to experts for{" "}
-                    <b>advertising and offline media solutions.</b> We believe
-                    in creating <b>bold, memorable, and high-impact visuals</b>{" "}
-                    that make your brand impossible to ignore.
+                  Welcome to our chemical export and manufacturing company, where quality, reliability, and global reach define our operations. We specialize in delivering high-grade industrial and specialty chemicals to international markets with a focus on innovation, compliance, and customer satisfaction. Partner with us for trusted chemical solutions and seamless global trade.
                   </p>
                 </div>
 
@@ -246,12 +214,7 @@ const Main = () => {
                     <h3 className={styles.aboutHeading}>About Us</h3>
                   </div>
                   <p className={styles.aboutPara}>
-                    Founded in 2021 in Surat, Guru Graphics began as a creative
-                    hub offering graphic design and printing services, including
-                    logos, brochures, pamphlets, banners, hoardings, and more.
-                    With a strong foundation in the industry, we provided
-                    high-quality designs and printing solutions through job
-                    work.
+                We are Prolate Industries a leading manufacturer and global exporter of high-quality industrial and specialty chemicals, committed to delivering excellence through innovation, precision, and sustainable practices. With a strong foundation in chemical production, our company offers a diverse portfolio of organic and inorganic chemicals tailored to meet the needs of various industries, including agriculture, pharmaceuticals, textiles, construction, and water treatment, house hold products, Preservatives chemical, Food chemical, etc..
                   </p>
                   <div className={styles.aboutIconMainDiv}>
                     <div className={styles.aboutIconSubDiv}>
@@ -268,12 +231,7 @@ const Main = () => {
                       <div className={styles.aboutIconParaDiv}>
                         {/* <h2 className={styles.aboutIconHead}>Lorem, ipsum.</h2> */}
                         <p className={styles.aboutIconPara}>
-                          Building on our expertise, we expanded in 2018 with
-                          the launch of Guru Graphics, specializing in signage
-                          manufacturing. With advanced printing technology and
-                          cutting-edge machinery, we entered the B2B market,
-                          delivering premium signage solutions to businesses
-                          across industries.
+                         Operating from a state-of-the-art facility, we ensure strict adherence to international quality standards, safety protocols, and environmental regulations. Our robust supply chain, backed by expert logistics and efficient trade compliance, enables us to serve clients across Asia, Africa, Europe, and the Middle East with consistency and reliability.
                         </p>
                       </div>
                     </div>
@@ -291,10 +249,7 @@ const Main = () => {
                       <div className={styles.aboutIconParaDiv}>
                         {/* <h2 className={styles.aboutIconHead}>Lorem, ipsum.</h2> */}
                         <p className={styles.aboutIconPara}>
-                          With a commitment to innovation, quality, and customer
-                          satisfaction, we continue to evolve, ensuring that our
-                          clients receive the best in visual branding and
-                          advertising solutions.
+                      With customer satisfaction at the core of our operations, we aim to build long-term partnerships by offering competitive pricing, technical support, and on-time delivery. As we continue to expand our global reach, we remain committed to quality, innovation, and sustainable growth in the chemical export sector.
                         </p>
                       </div>
                     </div>
@@ -319,7 +274,7 @@ const Main = () => {
                   <h2 className={styles.clientsHeading}>Our Happy Clients</h2>
                 </div>
                 <div className={styles.clientLogosSliderDiv}>
-                  <Swiper
+                  {/* <Swiper
                     spaceBetween={10}
                     slidesPerView={5}
                     navigation={true}
@@ -363,7 +318,9 @@ const Main = () => {
                         </SwiperSlide>
                       );
                     })}
-                  </Swiper>
+                  </Swiper> */}
+
+                  <img src="/Client/oxford-logo.png" width="100%" />
                 </div>
                 {/* <div className={styles.clientLogosImgDiv}>
                   {clientImg.map((e, i) => {
@@ -453,7 +410,7 @@ const Main = () => {
         </div>
 
         {/* ============================= FIFTH SECTION ============================= */}
-        <div className={styles.testimonialsMainDiv}>
+        {/* <div className={styles.testimonialsMainDiv}>
           <div className="container">
             <div className="containerPadding">
               <div className={styles.testimonialsHeadingDiv}>
@@ -528,7 +485,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

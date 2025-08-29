@@ -5,12 +5,12 @@ import Navigation from "../../../components/navigation";
 
 const Page = () => {
   const data = [
-    { img: "/Aluminium Channel Letter/aluminiumImg1.jpg" },
-    { img: "/Aluminium Channel Letter/aluminiumImg2.jpg" },
-    { img: "/Aluminium Channel Letter/aluminiumImg3.jpg" },
-    { img: "/Aluminium Channel Letter/aluminiumImg4.jpg" },
-    { img: "/Aluminium Channel Letter/aluminiumImg5.jpg" },
-    { img: "/Aluminium Channel Letter/aluminiumImg6.jpg" },
+    { img: "/Backlit Sign Board/backlitImg1.jpg" },
+    { img: "/Backlit Sign Board/backlitImg2.jpg" },
+    { img: "/Backlit Sign Board/backlitImg3.jpg" },
+    { img: "/Backlit Sign Board/backlitImg4.jpg" },
+    { img: "/Backlit Sign Board/backlitImg5.jpg" },
+    { img: "/Backlit Sign Board/backlitImg6.jpg" },
   ];
   return (
     <>
@@ -32,10 +32,10 @@ const Page = () => {
                   </Link>{" "}
                   / Our Work /{" "}
                   <Link
-                    href="/our-work/aluminium-channel-letter"
+                    href="/our-work/lab-reagent-acetone"
                     className={`${styles.workParaLink} ${styles.workBreadCrumbActiveLink}`}
                   >
-                    Aluminium Channel Letter
+                    LABORATORY REAGENT Acetone (2-propanone;Dimethylketone) Extra pure (CH3)2co MW:58.08
                   </Link>
                 </p>
               </div>
@@ -48,21 +48,24 @@ const Page = () => {
           <div className="containerPadding">
             <div>
               <div className={styles.workSubHeadingDiv}>
-                <h2 className={styles.workSubHeading}>
-                  Aluminium Channel Letter
-                </h2>
+                <h2 className={styles.workSubHeading}>LABORATORY REAGENT Acetone (2-propanone;Dimethylketone) Extra pure (CH3)2co  MW:58.08</h2>
                 <div className={styles.workTopParaDiv}>
-                  <p className={styles.workTopPara}>
-                    The sides of the channel are formed by bending 2” to 8”
-                    Aluminium Channel with a base thickness of 1mm to 3mm
-                    (depending on the letter size) and body of 1 or 1.2mm; body
-                    colour can be customized. Front can be made up of either
-                    Acrylic with 2mm to 5mm of thickness sheet or Polycarbonate
-                    with 2mm to 5mm of thickness sheet.
-                  </p>
+                  <ul>
+  <li className={styles.workContentLi}><span>Appearance:</span> Clear colorless liquid</li>
+  <li className={styles.workContentLi}><span>Assay (GC):</span> min. 99.0%</li>
+  <li className={styles.workContentLi}><span>Water (H₂O):</span> max. 0.5%</li>
+  <li className={styles.workContentLi}><span>Acidity:</span> max. 0.2 ml</li>
+  <li className={styles.workContentLi}><span>Density (g/mL) @20°C:</span> 0.789 – 0.792 g</li>
+  <li className={styles.workContentLi}><span>Boiling Range:</span> 55–56 °C</li>
+  <li className={styles.workContentLi}><span>Non-volatile matter:</span> max. 0.005%</li>
+  <li className={styles.workContentLi}><span>Storage Temperature:</span> Store below 30°C</li>
+</ul>
+<div className={styles.productImg}>
+                                        <img src="/product-4.jpeg" width="100%" />
+                                    </div>
                 </div>
               </div>
-              <div className={styles.workAllImages}>
+              {/* <div className={styles.workAllImages}>
                 {data.map((e, i) => {
                   return (
                     <div key={i}>
@@ -70,7 +73,7 @@ const Page = () => {
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -5,12 +5,12 @@ import Navigation from "../../../components/navigation";
 
 const Page = () => {
   const data = [
-    { img: "/Social Media Post/socialImg1.jpg" },
-    { img: "/Social Media Post/socialImg2.jpg" },
-    { img: "/Social Media Post/socialImg3.jpg" },
-    { img: "/Social Media Post/socialImg4.jpg" },
-    { img: "/Social Media Post/socialImg5.jpg" },
-    { img: "/Social Media Post/socialImg6.jpg" },
+    { img: "/Black Back Flex/blackImg1.jpg" },
+    { img: "/Black Back Flex/blackImg2.jpg" },
+    { img: "/Black Back Flex/blackImg3.jpg" },
+    { img: "/Black Back Flex/blackImg4.jpg" },
+    { img: "/Black Back Flex/blackImg5.jpg" },
+    { img: "/Black Back Flex/blackImg6.jpg" },
   ];
   return (
     <>
@@ -32,10 +32,10 @@ const Page = () => {
                   </Link>{" "}
                   / Our Work /{" "}
                   <Link
-                    href="/our-work/social-media-post"
+                    href="/our-work/acetone"
                     className={`${styles.workParaLink} ${styles.workBreadCrumbActiveLink}`}
                   >
-                    Social Media Post
+                    ACETONE Extra pure (CH3)2co M.W. 58.08
                   </Link>
                 </p>
               </div>
@@ -48,19 +48,25 @@ const Page = () => {
           <div className="containerPadding">
             <div>
               <div className={styles.workSubHeadingDiv}>
-                <h2 className={styles.workSubHeading}>Social Media Post</h2>
+                <h2 className={styles.workSubHeading}>ACETONE Extra pure (CH3)2co M.W. 58.08</h2>
                 <div className={styles.workTopParaDiv}>
-                  <p className={styles.workTopPara}>
-                    This type of board is used where the letters are very small
-                    or the content on the signboard is very complex. Acrylic
-                    letters are not 3D but flush with the base-board. As the
-                    name suggests, the letters are hollowed out of the base ACP
-                    frame, similar to how stencils are cut from paper. An
-                    acrylic shop with lots of stuff besides name and logo.
-                  </p>
+                  <ul>
+  <li className={styles.workContentLi}><span>CAS No.:</span> 67-64-1</li>
+  <li className={styles.workContentLi}><span>Appearance:</span> Clear colourless liquid with characteristic odour</li>
+  <li className={styles.workContentLi}><span>Assay (GC):</span> min. 99%</li>
+  <li className={styles.workContentLi}><span>Water (H₂O):</span> max. 0.5%</li>
+  <li className={styles.workContentLi}><span>Non-volatile matter:</span> max. 0.005%</li>
+  <li className={styles.workContentLi}><span>Melting point:</span> -95.35 °C</li>
+  <li className={styles.workContentLi}><span>Density:</span> 0.79</li>
+  <li className={styles.workContentLi}><span>Solubility in water:</span> Complete</li>
+</ul>
+<div className={styles.productImg}>
+                                        <img src="/product-6.jpeg" width="100%" />
+                                    </div>
+
                 </div>
               </div>
-              <div className={styles.workAllImages}>
+              {/* <div className={styles.workAllImages}>
                 {data.map((e, i) => {
                   return (
                     <div key={i}>
@@ -68,7 +74,7 @@ const Page = () => {
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

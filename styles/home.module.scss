@@ -87,6 +87,7 @@
 .workSubHeading {
     margin: 0 0 10px 0;
     text-align: center;
+    word-break:break-all;
 }
 
 .workLinkDiv {
@@ -202,6 +203,8 @@
 
 .clientLogosSliderDiv {
     margin-bottom: 30px;
+        max-width: 50%;
+    margin: 0 auto;
 }
 
 .blogPara {

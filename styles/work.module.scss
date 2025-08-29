@@ -71,8 +71,20 @@
 }
 
 .workTopParaDiv {
-    width: 80%;
-    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.productImg {
+    padding-top: 15px;
+    max-width: 50%;
+}
+
+.workContentLi {
+    text-align: start;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -93,10 +105,24 @@
     }
 }
 
+@media only screen and (max-width: 765px) {
+    .workTopParaDiv {
+        flex-direction: column;
+    }
+
+    .productImg {
+        max-width: 100%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .workAllImages {
         grid-template-columns: 48% 48%;
         margin-bottom: 10px;
+    }
+
+    .workTopParaDiv {
+        flex-direction: column;
     }
 }
 

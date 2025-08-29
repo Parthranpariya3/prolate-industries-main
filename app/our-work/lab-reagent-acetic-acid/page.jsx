@@ -32,10 +32,10 @@ const Page = () => {
                   </Link>{" "}
                   / Our Work /{" "}
                   <Link
-                    href="/our-work/acrylic-letter-led"
+                    href="/our-work/lab-reagent-acetic-acid"
                     className={`${styles.workParaLink} ${styles.workBreadCrumbActiveLink}`}
                   >
-                    Acrylic Letter Led
+                    LABORATORY REAGENT Acetic Acid Giacial (Ethanoic Acid) Extra Pure
                   </Link>
                 </p>
               </div>
@@ -48,18 +48,26 @@ const Page = () => {
           <div className="containerPadding">
             <div>
               <div className={styles.workSubHeadingDiv}>
-                <h2 className={styles.workSubHeading}>Acrylic Letter Led</h2>
+                <h2 className={styles.workSubHeading}>LABORATORY REAGENT Acetic Acid Giacial (Ethanoic Acid) Extra Pure</h2>
                 <div className={styles.workTopParaDiv}>
-                  <p className={styles.workTopPara}>
-                    The letters on this board are made from laser-cut acrylic.
-                    They are mounted on an ACP frame and jut out approximately 3
-                    inches from the base. LEDs are embedded within the letters
-                    to give them a beautiful glow. Acrylic box letter boards are
-                    ideal for corporate offices and retail stores.
-                  </p>
+                  <ul>
+                    <li className={styles.workContentLi}><span>Appearance:</span> Clear colorless liquid</li>
+                    <li className={styles.workContentLi}><span>Assay (acidimetric):</span> min. 99.5%</li>
+                    <li className={styles.workContentLi}><span>Wt. per mL at 20°C:</span> 1.047 – 1.052 g</li>
+                    <li className={styles.workContentLi}><span>Freezing point:</span> 15.5 °C</li>
+                    <li className={styles.workContentLi}><span>Chloride (Cl):</span> max. 0.0005%</li>
+                    <li className={styles.workContentLi}><span>Sulphate (SO₄):</span> max. 0.0005%</li>
+                    <li className={styles.workContentLi}><span>Arsenic (As):</span> max. 0.0002%</li>
+                    <li className={styles.workContentLi}><span>Iron (Fe):</span> max. 0.0002%</li>
+                    <li className={styles.workContentLi}><span>Lead (Pb):</span> max. 0.0002%</li>
+                    <li className={styles.workContentLi}><span>Non-volatile matter:</span> max. 0.01%</li>
+                  </ul>
+                  <div className={styles.productImg}>
+                                        <img src="/product-3.jpeg" width="100%" />
+                                    </div>
                 </div>
               </div>
-              <div className={styles.workAllImages}>
+              {/* <div className={styles.workAllImages}>
                 {data.map((e, i) => {
                   return (
                     <div key={i}>
@@ -67,7 +75,7 @@ const Page = () => {
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -5,12 +5,12 @@ import Navigation from "../../../components/navigation";
 
 const Page = () => {
   const data = [
-    { img: "/Roll Up Stande/rollImg1.jpg" },
-    { img: "/Roll Up Stande/rollImg2.jpg" },
-    { img: "/Roll Up Stande/rollImg3.jpg" },
-    { img: "/Roll Up Stande/rollImg4.jpg" },
-    { img: "/Roll Up Stande/rollImg5.jpg" },
-    { img: "/Roll Up Stande/rollImg6.jpg" },
+    { img: "/2D Acrylic Letter Led/acrylicImg1.jpg" },
+    { img: "/2D Acrylic Letter Led/acrylicImg2.jpg" },
+    { img: "/2D Acrylic Letter Led/acrylicImg3.jpg" },
+    { img: "/2D Acrylic Letter Led/acrylicImg4.jpg" },
+    { img: "/2D Acrylic Letter Led/acrylicImg5.jpg" },
+    { img: "/2D Acrylic Letter Led/acrylicImg6.jpg" },
   ];
   return (
     <>
@@ -32,10 +32,10 @@ const Page = () => {
                   </Link>{" "}
                   / Our Work /{" "}
                   <Link
-                    href="/our-work/roll-up-stande"
+                    href="/our-work/ammonium-sulphate"
                     className={`${styles.workParaLink} ${styles.workBreadCrumbActiveLink}`}
                   >
-                    Roll Up Stande
+                    AMMONIUM SULPHATE Extra pure (NH4)2SO4.M.W. 132.14 
                   </Link>
                 </p>
               </div>
@@ -48,20 +48,26 @@ const Page = () => {
           <div className="containerPadding">
             <div>
               <div className={styles.workSubHeadingDiv}>
-                <h2 className={styles.workSubHeading}>Roll Up Stande</h2>
+                <h2 className={styles.workSubHeading}>AMMONIUM SULPHATE Extra pure (NH4)2SO4.M.W. 132.14 </h2>
                 <div className={styles.workTopParaDiv}>
-                  <p className={styles.workTopPara}>
-                    Roll-up standees are light-weight and simple in operation.
-                    This makes them an ideal solution for exhibitions since it's
-                    easy to get them there and put them up. The form-factor of
-                    the rollup standee is such that it can be easily put into a
-                    bag (provided) and transported. The smaller variants (3
-                    foot) can be easily carried in flight cabins, while the
-                    larger sizes can be put into the check-in baggage.
-                  </p>
+
+                  <ul>
+                    <li className={styles.workContentLi}><span>CAS No.:</span> 7783-20-2</li>
+                    <li className={styles.workContentLi}><span>Appearance:</span> Colourless crystals / White crystalline powder</li>
+                    <li className={styles.workContentLi}><span>Assay (titration):</span> min 98.5%</li>
+                    <li className={styles.workContentLi}><span>pH (5% solution, 25°C):</span> 4.5–6.0</li>
+                    <li className={styles.workContentLi}><span>Chloride (Cl):</span> max 0.003%</li>
+                    <li className={styles.workContentLi}><span>Iron (Fe):</span> max 0.002%</li>
+                    <li className={styles.workContentLi}><span>Sulfated Ash:</span> max 0.05%</li>
+                    <li className={styles.workContentLi}><span>Heavy Metals (as Pb):</span> max 0.002%</li>
+                  </ul>
+<div className={styles.productImg}>
+                                        <img src="/product-1.jpeg" width="100%" />
+                                    </div>
+
                 </div>
               </div>
-              <div className={styles.workAllImages}>
+              {/* <div className={styles.workAllImages}>
                 {data.map((e, i) => {
                   return (
                     <div key={i}>
@@ -69,7 +75,7 @@ const Page = () => {
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

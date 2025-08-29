@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className={styles.footerLogoDiv}>
                   <Link href="/">
                     <img
-                      src="/gurulogo.png"
+                      src="/prolatelogo.png"
                       alt="logo"
                       width="100%"
                       className={styles.footerLogo}
@@ -72,7 +72,7 @@ const Footer = () => {
                     <IoCallOutline className={styles.footerIcon} />
                   </div>
                   <div className={styles.footerContentDiv}>
-                    <p className={styles.footerContent}>02614503241</p>
+                    <p className={styles.footerContent}>+91 09712341004</p>
                   </div>
                 </div>
                 <div className={styles.footerIconContent}>
@@ -91,8 +91,7 @@ const Footer = () => {
                   </div>
                   <div className={styles.footerContentDiv}>
                     <p className={styles.footerContent}>
-                      104, Unitech Business Hub, opp. BBC, Savaliya Circle, Yogi
-                      Chowk, Surat, Gujarat, 395010.
+                      Shop-4 Shiv Complex, near umiya circle, 150ft ring road, Rajkot-360004.
                     </p>
                   </div>
                 </div>

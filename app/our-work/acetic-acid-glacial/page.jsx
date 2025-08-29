@@ -5,14 +5,12 @@ import Navigation from "../../../components/navigation";
 
 const Page = () => {
   const data = [
-    { img: "/Printing/printing1.jpg" },
-    { img: "/Printing/printing2.jpg" },
-    { img: "/Printing/printing3.jpg" },
-    { img: "/Printing/printing4.jpg" },
-    { img: "/Printing/printing5.jpg" },
-    { img: "/Printing/printing6.jpg" },
-    { img: "/Printing/printing7.jpg" },
-    { img: "/Printing/printing8.jpg" },
+    { img: "/Aluminium Channel Letter/aluminiumImg1.jpg" },
+    { img: "/Aluminium Channel Letter/aluminiumImg2.jpg" },
+    { img: "/Aluminium Channel Letter/aluminiumImg3.jpg" },
+    { img: "/Aluminium Channel Letter/aluminiumImg4.jpg" },
+    { img: "/Aluminium Channel Letter/aluminiumImg5.jpg" },
+    { img: "/Aluminium Channel Letter/aluminiumImg6.jpg" },
   ];
   return (
     <>
@@ -34,10 +32,10 @@ const Page = () => {
                   </Link>{" "}
                   / Our Work /{" "}
                   <Link
-                    href="/our-work/printing"
+                    href="/our-work/acetic-acid-glacial"
                     className={`${styles.workParaLink} ${styles.workBreadCrumbActiveLink}`}
                   >
-                    Printing
+                   ACETIC ACID GLACIAL Extra pure CH3COOH. M.W. 60.05
                   </Link>
                 </p>
               </div>
@@ -50,18 +48,28 @@ const Page = () => {
           <div className="containerPadding">
             <div>
               <div className={styles.workSubHeadingDiv}>
-                <h2 className={styles.workSubHeading}>Printing</h2>
+                <h2 className={styles.workSubHeading}>
+                  ACETIC ACID GLACIAL Extra pure CH3COOH. M.W. 60.05
+                </h2>
                 <div className={styles.workTopParaDiv}>
-                  <p className={styles.workTopPara}>
-                    Whether it's a basic business card, flyer, or catalog, we
-                    print, fold, glue, bind, and create all that offset and
-                    digital printing offers. Maybe your firm needs non-standard
-                    documents to keep track of trade in goods, money, or other
-                    things?
-                  </p>
+                 <ul>
+  <li className={styles.workContentLi}><span>CAS No.:</span> 64-19-7</li>
+  <li className={styles.workContentLi}><span>Appearance:</span> Clear colourless liquid</li>
+  <li className={styles.workContentLi}><span>Assay (alkalimetric):</span> min. 99.5%</li>
+  <li className={styles.workContentLi}><span>Weight/mL at 20°C:</span> 1.047–1.052 g</li>
+  <li className={styles.workContentLi}><span>Chloride (Cl):</span> max. 0.0005%</li>
+  <li className={styles.workContentLi}><span>Arsenic (As):</span> max. 0.0002%</li>
+  <li className={styles.workContentLi}><span>Iron (Fe):</span> max. 0.0002%</li>
+  <li className={styles.workContentLi}><span>Density [g/cm³]:</span> 1.049</li>
+  <li className={styles.workContentLi}><span>Solubility in water:</span> Complete</li>
+</ul>
+<div className={styles.productImg}>
+                                        <img src="/product-2.jpeg" width="100%" />
+                                    </div>
+
                 </div>
               </div>
-              <div className={styles.workAllImages}>
+              {/* <div className={styles.workAllImages}>
                 {data.map((e, i) => {
                   return (
                     <div key={i}>
@@ -69,7 +77,7 @@ const Page = () => {
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

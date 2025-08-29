@@ -5,12 +5,12 @@ import Navigation from "../../../components/navigation";
 
 const Page = () => {
   const data = [
-    { img: "/2D Acrylic Letter Led/acrylicImg1.jpg" },
-    { img: "/2D Acrylic Letter Led/acrylicImg2.jpg" },
-    { img: "/2D Acrylic Letter Led/acrylicImg3.jpg" },
-    { img: "/2D Acrylic Letter Led/acrylicImg4.jpg" },
-    { img: "/2D Acrylic Letter Led/acrylicImg5.jpg" },
-    { img: "/2D Acrylic Letter Led/acrylicImg6.jpg" },
+    { img: "/Frontlit Flex/frontlitImg1.jpg" },
+    { img: "/Frontlit Flex/frontlitImg2.jpg" },
+    { img: "/Frontlit Flex/frontlitImg3.jpg" },
+    { img: "/Frontlit Flex/frontlitImg4.jpg" },
+    { img: "/Frontlit Flex/frontlitImg5.jpg" },
+    { img: "/Frontlit Flex/frontlitImg6.jpg" },
   ];
   return (
     <>
@@ -32,10 +32,11 @@ const Page = () => {
                   </Link>{" "}
                   / Our Work /{" "}
                   <Link
-                    href="/our-work/2D-cut-acrylic-letter-led"
+                    href="/our-work/borox"
                     className={`${styles.workParaLink} ${styles.workBreadCrumbActiveLink}`}
                   >
-                    2D Acrylic Letter Led
+                    BORAX (Decahydrate) Extra pure (Di-Sodium) Tetraborate Na2B4o7.10H2o M.W. 381.37
+
                   </Link>
                 </p>
               </div>
@@ -48,19 +49,24 @@ const Page = () => {
           <div className="containerPadding">
             <div>
               <div className={styles.workSubHeadingDiv}>
-                <h2 className={styles.workSubHeading}>2D Acrylic Letter Led</h2>
+                <h2 className={styles.workSubHeading}>BORAX (Decahydrate) Extra pure (Di-Sodium) Tetraborate Na2B4o7.10H2o M.W. 381.37</h2>
                 <div className={styles.workTopParaDiv}>
-                  <p className={styles.workTopPara}>
-                    This type of board is used where the letters are very small
-                    or the content on the signboard is very complex. Acrylic
-                    letters are not 3D but flush with the base-board. As the
-                    name suggests, the letters are hollowed out of the base ACP
-                    frame, similar to how stencils are cut from paper. An
-                    acrylic shop with lots of stuff besides name and logo.
-                  </p>
+                  <ul>
+                    <li className={styles.workContentLi}><span>CAS No.:</span> 1303-96-4</li>
+                    <li className={styles.workContentLi}><span>Appearance:</span> White crystalline powder</li>
+                    <li className={styles.workContentLi}><span>Assay (by acidimetry):</span> 99–103%</li>
+                    <li className={styles.workContentLi}><span>pH (5% water):</span> 9.2–9.5</li>
+                    <li className={styles.workContentLi}><span>Maximum Limits of Impurities: Carbonate, Bicarbonate</span></li>
+                    {/* <li className={styles.workContentLi}><span>:</span> Passes test</li> */}
+                    <li className={styles.workContentLi}><span>Sulphate (SO₄):</span> 0.005%</li>
+                    <li className={styles.workContentLi}><span>Heavy metals (as Pb):</span> 0.002%</li>
+                  </ul>
+<div className={styles.productImg}>
+                                        <img src="/product-5.jpeg" width="100%" />
+                                    </div>
                 </div>
               </div>
-              <div className={styles.workAllImages}>
+              {/* <div className={styles.workAllImages}>
                 {data.map((e, i) => {
                   return (
                     <div key={i}>
@@ -68,7 +74,7 @@ const Page = () => {
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
