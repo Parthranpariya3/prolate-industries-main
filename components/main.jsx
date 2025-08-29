@@ -341,7 +341,7 @@ const Main = () => {
         </div>
 
         {/* ============================= FOURTH SECTION ============================= */}
-        <div id="blogs">
+        {/* <div id="blogs">
           <div className="container">
             <div className="containerPadding">
               <div>
@@ -407,7 +407,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* ============================= FIFTH SECTION ============================= */}
         {/* <div className={styles.testimonialsMainDiv}>

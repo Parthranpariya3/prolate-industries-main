@@ -40,11 +40,11 @@ const Navigation = () => {
                       Services
                     </Link>
                   </p>
-                  <p className={styles.navItem}>
+                  {/* <p className={styles.navItem}>
                     <Link href="/#blogs" className={styles.navItemsLink}>
                       Blog
                     </Link>
-                  </p>
+                  </p> */}
                   <p className={styles.navItem}>
                     <Link href="/contact-us" className={styles.navItemsLink}>
                       Contact Us
