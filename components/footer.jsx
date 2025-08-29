@@ -28,10 +28,7 @@ const Footer = () => {
                 </div>
                 <div className={styles.footerParaDivs}>
                   <p className={styles.footerPara}>
-                    Established in 2021, GURU GRAPHICS has been a trusted name
-                    in Surat for high-quality printing services. With a
-                    commitment to excellence, we strive to deliver the best
-                    solutions for all your signage and printing needs.
+                    Prolate Industries has been a trusted name in chemical manufacturing and exports. With a focus on quality and global standards, we deliver reliable solutions for industrial and specialty needs.
                   </p>
                 </div>
               </div>
