@@ -72,7 +72,7 @@ const Footer = () => {
                     <IoCallOutline className={styles.footerIcon} />
                   </div>
                   <div className={styles.footerContentDiv}>
-                    <p className={styles.footerContent}>+91 09712341004</p>
+                    <p className={styles.footerContent}>+91 7574835957</p>
                   </div>
                 </div>
                 <div className={styles.footerIconContent}>
@@ -81,7 +81,7 @@ const Footer = () => {
                   </div>
                   <div className={styles.footerContentDiv}>
                     <p className={styles.footerContent}>
-                      gurugraphics97@gmail.com
+                      prolate.industries@gmail.com
                     </p>
                   </div>
                 </div>
